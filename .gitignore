@@ -1,0 +1,27 @@
+# API keys — never commit these
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Streamlit cache
+.streamlit/cache/
+
+# FAISS index if saved to disk
+*.faiss
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
